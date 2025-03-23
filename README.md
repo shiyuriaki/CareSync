@@ -1,3 +1,9 @@
+# CareSync
+
+CareSync is an application designed to create personalized medical records, allowing patients to stay connected to their health, resources, and their primary care provider with just a click. With CareSync, you can expect more seamless doctor visits and up-to-date records of your care. Having trouble? Our AI Assistance is just a step away, ready to guide you through anything!
+
+Created by Anna Gelisanga, Amanda Gantuga and Mometa Uddin for BeachHacks 8.0 (2025). Our DevPost submission: [here!]()
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
