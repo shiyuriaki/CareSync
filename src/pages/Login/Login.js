@@ -6,7 +6,7 @@ const Login = () => {
     const navigate = useNavigate();
     
     const handleLogin = () => {
-        navigate("/patient-form");
+        navigate("/patient-form-title");
     };
 
     return (

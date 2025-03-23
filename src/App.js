@@ -37,7 +37,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main/>}/>
           <Route path="/login" element={<Login/>}/>
-          <Route path="/patient-form" element={<PatientForm/>}/>
+          <Route path="/patient-form-title" element={<PatientForm/>}/>
         </Routes>
       </Router>
   );

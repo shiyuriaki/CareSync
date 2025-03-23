@@ -18,3 +18,12 @@
   color: #333;
   text-align: center;
 }
+
+.logo-container p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem;
+  text-shadow: -1px -1px 0 #1565c0, 1px -1px 0 #1565c0, -1px 1px 0 #1565c0, 1px 1px 0 #1565c0;
+}

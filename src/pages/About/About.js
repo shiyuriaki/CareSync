@@ -9,7 +9,9 @@ const About = () => {
             <section className="about-section">
             <h1>About CareSync</h1>
             <p summary = "text-white text-lg max-w-2xl text-center">
-            "CareSync is an application designed to create personalized medical records, allowing patients to stay connected to their health, resources, and their primary care provider with just a click. With CareSync, you can expect more seamless doctor visits and up-to-date records of your care. Having trouble? Our AI Assistance is just a step away, ready to guide you through anything!"
+            "CareSync is an application designed to create personalized medical records, allowing patients to stay connected to their health, resources, and their primary care provider with just a click. 
+            With CareSync, you can expect more seamless doctor visits and up-to-date records of your care. 
+            Having trouble? Our AI Assistance is just a step away, ready to guide you through anything!"
 
             </p>
             </section>

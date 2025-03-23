@@ -75,11 +75,13 @@ const PatientForm = () => {
     };
     
     return (
-    <div className="patient-form">
+    <div className="patient-form-title">
         <h1>Patient Form</h1>
         <p>Fill our your health information here</p>
 
         <button onClick={handleBack}>Back to Main</button>
+    <div className="patient-form">
+
         <form onSubmit={handleSubmit}>
             <label>
                 First Name:
@@ -188,7 +190,7 @@ const PatientForm = () => {
         <button id="submit-btn" type="submit">Submit</button>
         </form>
     </div>
-
+    </div>
     );
 };
 
