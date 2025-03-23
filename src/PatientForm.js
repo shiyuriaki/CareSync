@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import {jsPDF} from "jspdf";
 import "./App.css";
@@ -40,15 +41,7 @@ const PatientForm = () => {
         doc.setFillColor(200, 200, 255);
         doc.rect(0,0, doc.internal.pageSize.width, doc.internal.pageSize.height, 'F');
     
-        /*doc.setFont("courier", "bold");
-        doc.setFontSize(18);
-        doc.text("Self-Report Check-Up Form", doc.internal.pageSize.width / 40, 50, { align: "center" });*/
-    
         const title = "Self-Report Check-Up Form";
-        //const titleWidth = doc.getTextWidth(title);
-        //const pageWidth = doc.pageSize.width;
-
-        //const x = (pageWidth - titleWidth) /2;
 
         doc.setFont("roman numeral", "bold");
         doc.setFontSize(22);
